@@ -1,0 +1,335 @@
+.header {
+  background-color: purple;
+  padding-bottom: 10px;
+}
+.header__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  height: 80px;
+  padding: 0px 20px;
+}
+.header__logo {
+  width: 95px;
+  height: auto;
+  fill: white;
+}
+.header__icon {
+  width: 35px;
+  height: auto;
+  fill: white;
+}
+
+.section {
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+}
+.section__span {
+  color: orange;
+}
+
+.b-image {
+  width: 100%;
+}
+.b-image--left {
+  width: 80%;
+}
+.b-image--right {
+  width: 80%;
+}
+
+main .sectionLogos {
+  background-color: #F4EDE4;
+  padding: 50px 15px;
+}
+main .sectionLogos__iconsMap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  padding-top: 10px;
+}
+main .sectionProduct {
+  display: flex;
+  flex-direction: column;
+  background-color: #F4EDE4;
+  padding: 12% 0%;
+}
+main .sectionProduct__divText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+main .sectionProduct--right {
+  align-items: flex-end;
+}
+main .sectionContacto {
+  display: flex;
+  flex-direction: column;
+  padding: 10% 3%;
+  align-items: center;
+  text-align: center;
+}
+main .sectionContacto__listPercents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 60px 0px;
+  max-width: 180px;
+}
+main .b-divVideo {
+  position: relative;
+}
+main .b-divVideo__video {
+  border-radius: 0px;
+  -webkit-clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+          clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+}
+main .b-buttonPlay {
+  position: absolute;
+  top: 37%;
+  left: 37%;
+  background-color: rgb(107, 166, 206);
+  border-radius: 5px;
+  width: 70px;
+  height: 50px;
+}
+main .sectionQuote {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px 20px;
+}
+main .sectionNote {
+  padding: 20px 20px;
+  font-size: 15px;
+  text-align: center;
+}
+main .sectionCard {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F4EDE4;
+  text-align: center;
+  align-items: center;
+}
+main .sectionCard .b-card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15px 0;
+  gap: 20px;
+  width: 75%;
+  background-color: white;
+  text-align: start;
+}
+main .sectionCard .b-card__img {
+  width: 100%;
+}
+main .sectionButtons {
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 70px 20px;
+  align-items: center;
+  text-align: center;
+  -webkit-clip-path: ellipse(105% 100% at center top);
+          clip-path: ellipse(105% 100% at center top);
+}
+main .b-listItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+main .sectionQuestions {
+  padding: 30px 20PX;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.b-footer {
+  margin: 30px 20px;
+  position: relative;
+}
+.b-footer__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-weight: bold;
+}
+.b-footer__region {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.b-footer__downloadlink {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.b-footer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: -30px;
+  background-color: rgb(212, 212, 212);
+}
+.b-footer__icons {
+  display: flex;
+  padding: 35px 0px;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+a {
+  color: #1264A9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.b-h1 {
+  font-size: 40px;
+}
+
+.b-h3 {
+  font-size: 14px;
+}
+.b-h3--alignCenter {
+  text-align: center;
+}
+
+.b-h2 {
+  font-size: 30px;
+  padding: 5px 0px;
+  margin-bottom: 20px;
+}
+.b-h2--white {
+  color: white;
+}
+
+.b-parraf {
+  line-height: 25px;
+  padding: 15px 0px;
+  font-weight: bold;
+}
+
+.b-icon {
+  height: 50px;
+  width: 50px;
+}
+.b-icon--giro {
+  rotate: 45;
+}
+
+.b-iconMini {
+  height: 10px;
+}
+.b-iconMini--giro {
+  transform: rotate(90deg);
+}
+
+.b-button {
+  background-color: white;
+  color: purple;
+  font-weight: bold;
+  padding: 20px 0px;
+  width: 100%;
+  border: 0;
+  border-radius: 7px;
+}
+.b-buttonIcon {
+  background-color: rgb(68, 118, 255);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
+  border-radius: 7px;
+}
+.b-buttonIcon__icon {
+  background-color: white;
+  width: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+.b-buttonIcon__text {
+  color: white;
+  padding: 0% 9%;
+  text-align: center;
+}
+.b-button--purple {
+  color: white;
+  background-color: purple;
+}
+.b-button--secondary {
+  margin-top: 10px;
+}
+.b-button--purpleLine {
+  color: purple;
+  border: 1px solid purple;
+}
+.b-button--whiteLine {
+  color: white;
+  border: 1px solid white;
+}
+
+.b-percentg {
+  font-size: 45px;
+  font-weight: bold;
+  color: purple;
+}
+
+.b-textMini {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.b-text--italics {
+  font-style: italic;
+}
+
+.b-moveDots {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  padding: 20px 0px 0px;
+}
+.b-moveDots__dot {
+  background-color: grey;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.b-moveDots__dot:hover {
+  background-color: purple;
+}
+
+.b-chatWidget {
+  position: fixed;
+  top: 92%;
+  left: 80%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 15%;
+  background-color: rgb(155, 24, 155);
+  box-shadow: 0px 5px 15px rgb(68, 68, 68);
+  color: white;
+  z-index: 1;
+}/*# sourceMappingURL=main.css.map */

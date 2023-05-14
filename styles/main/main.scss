@@ -1,0 +1,170 @@
+@import "../utilities/ejemMix";
+
+@import "../blocks/header";
+@import "../blocks/body";
+@import "../blocks/footer";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    list-style: none;
+
+}
+
+a {
+    color: #1264A9;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.b-h1 {
+    font-size: 40px;
+}
+
+.b-h3 {
+    font-size: 14px;
+
+    &--alignCenter {
+        text-align: center;
+    }
+}
+
+.b-h2 {
+    font-size: 30px;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+
+    &--white {
+        color: white;
+    }
+}
+
+.b-parraf {
+    line-height: 25px;
+    padding: 15px 0px;
+    font-weight: bold;
+
+}
+
+.b-icon {
+    height: 50px;
+    width: 50px;
+
+    &--giro {
+        rotate: 45;
+    }
+}
+
+.b-iconMini {
+    height: 10px;
+
+    &--giro {
+        transform: rotate(90deg);
+    }
+}
+
+.b-button {
+    background-color: white;
+    color:purple;
+    font-weight: bold;
+    padding: 20px 0px;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+
+    &Icon {
+        background-color: rgb(68, 118, 255);
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        margin: 20px 0;
+        border-radius: 7px;
+
+        &__icon {
+            background-color: white;
+            width: 30px;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        &__text {
+            color: white;
+            padding: 0% 9%;
+            text-align: center;
+        }
+        
+    }
+
+    &--purple {
+        color: white;
+        background-color: purple;
+    }
+
+    &--secondary {
+        margin-top: 10px;
+    }
+
+    &--purpleLine {
+        color: purple;
+        border: 1px solid purple;
+    }
+
+    &--whiteLine {
+        color: white;
+        border: 1px solid white;
+    }
+}
+
+.b-percentg {
+    font-size: 45px;
+    font-weight: bold;
+    color: purple;
+}
+
+.b-textMini {
+    font-size: 13px;   
+    line-height: 18px;
+}
+
+.b-text--italics {
+    font-style: italic;
+}
+
+.b-moveDots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+    padding: 20px 0px 0px;
+
+    &__dot {
+        background-color: grey;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+
+        &:hover {
+        background-color: purple;
+
+        }
+    }
+    
+}
+
+.b-chatWidget {
+    position: fixed;
+    top: 92%;
+    left: 80%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 15%;
+    background-color: rgb(155, 24, 155);
+    box-shadow: 0px 5px 15px rgb(68, 68, 68);
+    color: white;
+    z-index: 1;
+}

@@ -1,0 +1,50 @@
+
+.header {
+    background-color: purple;
+    padding-bottom: 10px;
+
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        height: 80px;
+        padding:0px 20px;
+    }
+
+    &__logo {
+        width: 95px;
+        height: auto;
+        fill: white;
+    }
+
+    &__icon {
+        width: 35px;
+        height: auto;
+        fill: white;
+    }
+}
+
+
+.section {
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    &__span {
+        color: orange;
+    }
+}
+
+.b-image {
+    width: 100%;
+
+    &--left {
+        width: 80%;
+    }
+
+    &--right {
+
+        width: 80%;
+
+    }
+}

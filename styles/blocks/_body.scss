@@ -1,0 +1,143 @@
+main {
+
+    .sectionLogos {
+        background-color: #F4EDE4;
+        padding: 50px 15px;
+    
+        &__iconsMap {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+            padding-top: 10px;
+        }
+
+    }
+
+    .sectionProduct {
+        display: flex;
+        flex-direction: column;
+        background-color: #F4EDE4;
+        padding: 12% 0%;
+    
+    
+        &__divText {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;
+
+        }
+
+        &--right {
+            align-items: flex-end;
+        }
+    
+    }
+
+    .sectionContacto {
+        display: flex;
+        flex-direction: column;       
+        padding: 10% 3%;
+        align-items: center;
+        text-align: center;
+
+        &__listPercents {
+            display: flex;
+            flex-direction: column;       
+            align-items: center;
+            gap: 50px;
+            margin: 60px 0px;
+            max-width: 180px;
+
+        }
+
+    }
+    
+    .b-divVideo {
+        position: relative;
+        
+        &__video {
+            border-radius: 0px;
+            clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+        }
+
+    }
+
+    .b-buttonPlay {
+        position: absolute;
+        top: 37%;
+        left: 37%;
+        background-color: rgb(107, 166, 206);
+        border-radius: 5px;
+        width: 70px;
+        height: 50px;
+
+    }
+
+    .sectionQuote {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 40px 20px;
+
+    }
+
+    .sectionNote {
+        padding: 20px 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sectionCard {
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        background-color: #F4EDE4;
+        text-align: center;
+        align-items: center;
+
+        .b-card {
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            margin: 15px 0;
+            gap: 20px;
+            width: 75%;
+            background-color: white;
+            text-align: start;
+
+            &__img {
+                width: 100%;
+            }
+        }
+    }
+
+    .sectionButtons {
+        background-color: purple;
+        display: flex;
+        flex-direction: column;       
+        padding: 40px 20px 70px 20px;
+        align-items: center;
+        text-align: center;
+        clip-path: ellipse(105% 100% at center top);
+    }
+
+    .b-listItem {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .sectionQuestions {
+        padding: 30px 20PX;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+}
