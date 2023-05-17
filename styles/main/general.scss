@@ -1,7 +1,7 @@
 @import "../utilities/ejemMix";
 
 @import "../blocks/header";
-@import "../blocks/bodyMain";
+@import "../blocks/main";
 @import "../blocks/footer";
 
 
@@ -20,16 +20,26 @@ a {
     
 }
 
-.b-h1 {
-    font-size: 40px;
+.b-text {
+    font-size: 15px;
+
+    &__marginBottomS {
+        margin-bottom: 5px;
+    }
+
+    &__marginBottom {
+        margin-bottom: 10px;
+    }
+
+    &__XS {
+        font-weight: normal;
+        font-size: 14px;
+
+    }
 }
 
-.b-h3 {
-    font-size: 14px;
-
-    &--alignCenter {
-        text-align: center;
-    }
+.b-h1 {
+    font-size: 40px;
 }
 
 .b-h2 {
@@ -41,6 +51,15 @@ a {
         color: white;
     }
 }
+
+.b-h3 {
+    font-size: 14px;
+
+    &--alignCenter {
+        text-align: center;
+    }
+}
+
 
 .b-parraf {
     line-height: 25px;
@@ -66,12 +85,22 @@ a {
     }
 }
 
+    
+.b__twoButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+}
+
 .b-button {
+    text-align: center;
+    font-size: 14px;
     background-color: white;
-    color:purple;
+    color:#541554;
     font-weight: bold;
-    padding: 20px 0px;
-    width: 100%;
+    padding: 12px 20px;
     border: 0;
     border-radius: 7px;
 
@@ -80,6 +109,7 @@ a {
         display: flex;
         justify-content:flex-start;
         align-items: center;
+        text-align: center;
         margin: 20px 0;
         border-radius: 7px;
 
@@ -91,25 +121,23 @@ a {
         }
 
         &__text {
+            width: 100%;
+            text-align: center;
             color: white;
             padding: 0% 9%;
-            text-align: center;
         }
         
     }
 
     &--purple {
         color: white;
-        background-color: purple;
+        background-color: #541554;
     }
 
-    &--secondary {
-        margin-top: 10px;
-    }
 
     &--purpleLine {
-        color: purple;
-        border: 1px solid purple;
+        color: #541554;
+        border: 1px solid #541554;
     }
 
     &--whiteLine {
@@ -121,7 +149,7 @@ a {
 .b-percentg {
     font-size: 45px;
     font-weight: bold;
-    color: purple;
+    color: #541554;
 }
 
 .b-textMini {
@@ -148,7 +176,7 @@ a {
         border-radius: 50%;
 
         &:hover {
-        background-color: purple;
+        background-color: #541554;
 
         }
     }
@@ -157,8 +185,8 @@ a {
 
 .b-chatWidget {
     position: fixed;
-    top: 92%;
-    left: 80%;
+    bottom: 30px;
+    right: 30px;
     width: 50px;
     height: 50px;
     border: none;
@@ -168,3 +196,41 @@ a {
     color: white;
     z-index: 1;
 }
+
+.b-textArrow {
+    display: flex;
+
+    &--fullwidth {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media all and (max-width : 1080px) {
+
+
+    .b-hideMobile {
+        display: none !important;
+    }
+}
+
+@media all and (min-width : 1080px) {
+
+    .b-button {
+        &--secondary {
+            margin-top: 0px;
+            margin-left: 10px;
+        }
+    }
+
+    .b-moveDots {
+        display: none;
+    }
+
+    .b-hideDesktop {
+        display: none !important;
+    }
+
+}
+
